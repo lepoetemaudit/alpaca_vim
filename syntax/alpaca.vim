@@ -22,6 +22,7 @@ syntax keyword alpacaKeyword
       \ utf8
       \ unit
       \ binary
+      \ string
       \ bool
       \ float
       \ int
@@ -34,7 +35,7 @@ syntax keyword alpacaKeyword
 
 highlight link alpacaKeyword Keyword
 
-syntax keyword alpacaTypedef type let nextgroup=alpacaBind
+syntax keyword alpacaTypedef type let val nextgroup=alpacaBind
 highlight link alpacaTypedef TypeDef
 
 syntax match alpacaBind "\s*[0-9a-zA-Z_]*" contained
