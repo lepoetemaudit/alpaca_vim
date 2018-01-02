@@ -18,6 +18,7 @@ syntax keyword alpacaKeyword
       \ export
       \ export_type
       \ test
+      \ throw
       \ in
       \ utf8
       \ unit
@@ -55,4 +56,3 @@ highlight link alpacaNumber Number
 syntax match alpacaAtom ":[a-z][a-zA-Z_0-9]*"
 syntax keyword alpacaAtom true false
 highlight link alpacaAtom Constant
-
