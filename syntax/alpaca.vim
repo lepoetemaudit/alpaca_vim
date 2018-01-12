@@ -17,6 +17,8 @@ syntax keyword alpacaKeyword
       \ module
       \ export
       \ export_type
+      \ receive
+      \ send
       \ test
       \ in
       \ utf8
